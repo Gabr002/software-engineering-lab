@@ -34,3 +34,5 @@ enum Direction {
 
 const DirectionUp = Direction.Up;
 console.log(DirectionUp); // Output: 1
+
+// 32:37 - Segundos da aula
