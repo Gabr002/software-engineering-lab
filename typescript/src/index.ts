@@ -29,10 +29,19 @@ const employees: [number, string][] = [
 // Enum 
 enum Direction { 
     Up = 1,
-    Down = 2
+    Down = 2,
+    Left = "Esquerda",
+    Right = "Direita"
 }
 
-const DirectionUp = Direction.Up;
-console.log(DirectionUp); // Output: 1
+const DirectionUp = Direction.Left;
+
+// type Assertions
+const produtcName: any = "boné";
+
+// let itemId: productName as string;
+let itemId = <string>produtcName;
+
+
 
 // 32:37 - Segundos da aula
