@@ -26,3 +26,45 @@ const printLog = (message: string) => {}
 printLog(user.password!)
 
 // A exclamação (!) após 'user.password' é o operador de asserção de não nulo em TypeScript. Ele informa ao compilador que temos certeza de que 'user.password' não é nulo ou indefinido naquele ponto do código. Isso é útil quando sabemos que uma propriedade opcional foi definida, mas o compilador não consegue inferir isso automaticamente. No exemplo acima, estamos passando 'user.password' para a função 'printLog', e a exclamação garante que não haverá erros de compilação relacionados a valores nulos ou indefinidos. Já quando usamos 'message?: string' na definição da função, estamos indicando que o parâmetro 'message' é opcional e pode ser omitido ao chamar a função.
+
+// Unions
+type Author  = {
+    books: string[];
+}
+
+const author: Author & User = { 
+    age: 40,
+    books: ['1'],
+    email: "author@com.br",
+    firstName: "Ana",
+    orders: []
+}
+
+// const author: Author & User são unions types que combinam as propriedades de ambos os tipos 'Author' e 'User'. Isso significa que o objeto 'author' deve conter todas as propriedades definidas em ambos os tipos. No exemplo acima, 'author' possui a propriedade 'books' do tipo 'Author', bem como as propriedades 'firstName', 'age', 'email' e 'orders' do tipo 'User'. Essa abordagem é útil quando queremos criar objetos que compartilham características de múltiplos tipos, garantindo que todas as propriedades necessárias estejam presentes.
+
+// 48:31 - segundos da aula
+
+// Interfaces
+interface UserInterface {
+    readonly firstName: string; // propriedade somente leitura, ou seja, não pode ser alterada após a inicialização
+    email: string;
+}
+
+const emailUser: UserInterface = {
+    email: "felipe@gmail.com",
+    firstName: "Felipe"
+}
+
+// unions com interfaces
+interface AuthorInterface {
+    books: string[];
+}
+
+const authorInterface: UserInterface & AuthorInterface = {
+    email: "author@gmail.com",
+    firstName: "Ana",
+    books: [],
+};
+
+type Grade = number | string;
+const grade: Grade = 10;
