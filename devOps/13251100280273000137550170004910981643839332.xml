@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <protNFe>
+    <infProt>
+      <nProt>113253430205291</nProt>
+      <digVal>eyraOzjRULR2xmf/1MxoJhu81EA</digVal>
+      <dhRecbto>2025-11-11T23:53:45-04:00</dhRecbto>
+      <Id>ID113253430205291</Id>
+      <chNFe>13251100280273000137550170004910981643839332</chNFe>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+      <cStat>100</cStat>
+    </infProt>
+  </protNFe>
+  <NFe>
+    <infNFe Id="NFe13251100280273000137550170004910981643839332">
+      <ide>
+        <tpNF>1</tpNF>
+        <mod>55</mod>
+        <indPres>2</indPres>
+        <tpImp>1</tpImp>
+        <nNF>491098</nNF>
+        <cMunFG>1302603</cMunFG>
+        <procEmi>0</procEmi>
+        <finNFe>1</finNFe>
+        <dhEmi>2025-11-11T23:53:34-04:00</dhEmi>
+        <tpAmb>1</tpAmb>
+        <indFinal>1</indFinal>
+        <idDest>2</idDest>
+        <tpEmis>1</tpEmis>
+        <cDV>2</cDV>
+        <cUF>13</cUF>
+        <serie>17</serie>
+        <natOp>VENDA DE PRODUCAO / SAIDA ARMAZ. GERAL</natOp>
+        <cNF>64383933</cNF>
+        <verProc>1.0</verProc>
+        <indIntermed>1</indIntermed>
+      </ide>
+      <emit>
+        <xNome>SAMSUNG ELETRONICA DA AMAZONIA LTDA</xNome>
+        <CRT>3</CRT>
+        <xFant>SAMSUNG ELET. DA AMAZONIA LTDA</xFant>
+        <CNPJ>00280273000137</CNPJ>
+        <enderEmit>
+          <fone>9240091099</fone>
+          <UF>AM</UF>
+          <xPais>BRASIL</xPais>
+          <cPais>1058</cPais>
+          <xLgr>AV. DOS OITIS</xLgr>
+          <xMun>MANAUS</xMun>
+          <nro>1460</nro>
+          <cMun>1302603</cMun>
+          <xBairro>DISTRITO INDUSTRIAL</xBairro>
+          <CEP>69007002</CEP>
+        </enderEmit>
+        <IE>062002600</IE>
+      </emit>
+      <dest>
+        <xNome>Leonardo</xNome>
+        <CPF>09308840354</CPF>
+        <enderDest>
+          <xCpl>Panificado ra P</xCpl>
+          <fone>5585997631152</fone>
+          <UF>CE</UF>
+          <xPais>BRASIL</xPais>
+          <cPais>1058</cPais>
+          <xLgr>Rua Jose Vieira Barros</xLgr>
+          <xMun>Beberibe</xMun>
+          <nro>244</nro>
+          <cMun>2302206</cMun>
+          <xBairro>Planalto Beberibe</xBairro>
+          <CEP>62840000</CEP>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <det>
+        <nItem>1</nItem>
+        <prod>
+          <xPed>22831895</xPed>
+          <cEAN>7892509095143</cEAN>
+          <cProd>LC27F390FHLMZD</cProd>
+          <qCom>1.0000</qCom>
+          <cEANTrib>7892509095143</cEANTrib>
+          <vUnTrib>649.0000000000</vUnTrib>
+          <qTrib>1.0000</qTrib>
+          <vProd>649.00</vProd>
+          <xProd>Y2U5HX5Y903632T MONITOR DE VIDEO LCD 27 (USO EM INF.) - EAN: 7892509095143</xProd>
+          <vUnCom>649.0000000000</vUnCom>
+          <nItemPed>000010</nItemPed>
+          <indTot>1</indTot>
+          <uTrib>PC</uTrib>
+          <NCM>85285200</NCM>
+          <uCom>PC</uCom>
+          <CFOP>6105</CFOP>
+          <CEST>2106800</CEST>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS40>
+              <orig>4</orig>
+              <CST>41</CST>
+            </ICMS40>
+          </ICMS>
+          <IPI>
+            <IPINT>
+              <CST>52</CST>
+            </IPINT>
+            <cEnq>335</cEnq>
+          </IPI>
+          <COFINS>
+            <COFINSAliq>
+              <vCOFINS>39.46</vCOFINS>
+              <CST>01</CST>
+              <vBC>519.20</vBC>
+              <pCOFINS>7.6000</pCOFINS>
+            </COFINSAliq>
+          </COFINS>
+          <PIS>
+            <PISAliq>
+              <vPIS>8.57</vPIS>
+              <CST>01</CST>
+              <vBC>519.20</vBC>
+              <pPIS>1.6500</pPIS>
+            </PISAliq>
+          </PIS>
+        </imposto>
+        <infAdProd>DCR: 2025/24654-9</infAdProd>
+      </det>
+      <total>
+        <ICMSTot>
+          <vCOFINS>39.46</vCOFINS>
+          <vBCST>0.00</vBCST>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vProd>649.00</vProd>
+          <vSeg>0.00</vSeg>
+          <vFCP>0.00</vFCP>
+          <vFCPST>0.00</vFCPST>
+          <vNF>649.00</vNF>
+          <vPIS>8.57</vPIS>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vBC>0.00</vBC>
+          <vST>0.00</vST>
+          <vICMS>0.00</vICMS>
+          <vII>0.00</vII>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vDesc>0.00</vDesc>
+          <vOutro>0.00</vOutro>
+          <vIPI>0.00</vIPI>
+          <vFrete>0.00</vFrete>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <vol>
+          <pesoL>4.400</pesoL>
+          <esp>Peca</esp>
+          <qVol>1</qVol>
+          <pesoB>6.000</pesoB>
+        </vol>
+        <transporta>
+          <xNome>SAMSUNG SDS GLOBAL SCL LATIN</xNome>
+          <UF>SP</UF>
+          <xEnder>AV ANTONIO CANDIDO MACHADO 3100</xEnder>
+          <xMun>CAJAMAR</xMun>
+          <CNPJ>24574383000501</CNPJ>
+          <IE>241074092111</IE>
+        </transporta>
+      </transp>
+      <pag>
+        <detPag>
+          <vPag>649.00</vPag>
+          <tPag>03</tPag>
+          <card>
+            <tpIntegra>1</tpIntegra>
+            <cAut>106KQQ9ZHRalOIHmuVCh</cAut>
+            <CNPJ>01425787000104</CNPJ>
+            <tBand>02</tBand>
+          </card>
+        </detPag>
+      </pag>
+      <infAdic>
+        <infCpl>ISENTO DE IPI CONFORME ART. 9 DO DECRETO-LEI 288/67. *Resolução Suframa n. 050/2007 PPB PI/MDIC/MCT 58/2020 MZN-701-0410503-4301016 *Processo de DCI Mensal Operação com Clausula CIF Mercadoria sairá do Armazém Geral Tecadi Armazéns Gerais Ltda Av Doutor Antonio Joao Abdalla 3333 Galpão - Cajamar/SP CEP 07750-020 CNPJ 08.640.510/0010-26 IE 241.200.655.117. Ato Declaratório n - 273/2025-DETRI/SER/SEFAZ Processo n 01.01.014101.280287/2025-37 - SEFAZ * Mercadoria Produzida na Zona Franca de Manaus REF.DOC: 5932714512 SO/PO: 1307635358 DELIVERY: 7318214663 PED.CLIENTE: 22831895 O ICMS próprio no valor de R$ 45.43 está destacado na NF de remessa emitida pelo Armazém Geral e integra o valor da venda/operação. Cubagem: 0058 m3 VALOR ICMS PARTILHA DESTINO: 84.37 IMEI/SERIAL: Y2U5HX5Y903632T DOCNUM: 1044637970</infCpl>
+      </infAdic>
+      <infRespTec>
+        <fone>11985469008</fone>
+        <idCSRT>22</idCSRT>
+        <CNPJ>24574383000170</CNPJ>
+        <hashCSRT>2KLfdenJzwr1UKrDokusO+6Dn/8=</hashCSRT>
+        <xContato>SDSLA IT SERVICE DESK</xContato>
+        <email>GERP.LAHQ@SAMSUNG.COM</email>
+      </infRespTec>
+    </infNFe>
+  </NFe>
+  <versao>4.00</versao>
+</nfeProc>
