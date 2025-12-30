@@ -68,3 +68,6 @@ const authorInterface: UserInterface & AuthorInterface = {
 
 type Grade = number | string;
 const grade: Grade = 10;
+
+
+// 51:36 - segundos da aula
