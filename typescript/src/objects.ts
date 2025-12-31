@@ -41,7 +41,10 @@ const author: Author & User = {
     books: ['1'],
     email: "author@com.br",
     firstName: "Ana",
-    orders: []
+    orders: [],
+    register() {
+        return "Autor registrado com sucesso!";
+    },
 }
 
 // const author: Author & User são unions types que combinam as propriedades de ambos os tipos 'Author' e 'User'. Isso significa que o objeto 'author' deve conter todas as propriedades definidas em ambos os tipos. No exemplo acima, 'author' possui a propriedade 'books' do tipo 'Author', bem como as propriedades 'firstName', 'age', 'email' e 'orders' do tipo 'User'. Essa abordagem é útil quando queremos criar objetos que compartilham características de múltiplos tipos, garantindo que todas as propriedades necessárias estejam presentes.
@@ -52,11 +55,15 @@ const author: Author & User = {
 interface UserInterface {
     readonly firstName: string; // propriedade somente leitura, ou seja, não pode ser alterada após a inicialização
     email: string;
+    login(): string;
 }
 
 const emailUser: UserInterface = {
     email: "felipe@gmail.com",
-    firstName: "Felipe"
+    firstName: "Felipe",
+    login() {
+        return "Autor registrado com sucesso!";
+    },
 }
 
 // unions com interfaces
@@ -68,6 +75,9 @@ const authorInterface: UserInterface & AuthorInterface = {
     email: "author@gmail.com",
     firstName: "Ana",
     books: [],
+    login() {
+        return "Login realizado com sucesso!";
+    }
 };
 
 type Grade = number | string;
