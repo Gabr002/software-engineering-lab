@@ -2,9 +2,7 @@
 
 Este repositório é meu **laboratório pessoal de Engenharia de Software**.
 
-Aqui concentro estudos práticos e teóricos com foco em **fundamentos sólidos**, **pensamento computacional**, **boas práticas de engenharia** e **preparação para entrevistas de Big Tech (FAANG+)**.
-
-O objetivo não é apenas “aprender frameworks”, mas **pensar como um engenheiro de software de alto nível**.
+Aqui concentro estudos práticos e teóricos com foco em **fundamentos sólidos**, **pensamento computacional**, **boas práticas de engenharia** e **preparação para entrevistas de Big Tech**.
 
 ---
 
@@ -14,7 +12,6 @@ O objetivo não é apenas “aprender frameworks”, mas **pensar como um engenh
 - Praticar **TypeScript, React e Node.js** com mentalidade profissional
 - Estudar **paradigmas de programação** e princípios de design
 - Criar uma base técnica forte para **entrevistas técnicas**
-- Evoluir de forma consistente rumo a **Senior / Staff Software Engineer**
 
 ---
 
@@ -101,4 +98,4 @@ Novos conteúdos, refatorações e melhorias serão adicionados conforme minha e
 
 **Gabriel Dantas Lopes**  
 Estudante de Ciência da Computação  
-Foco em Big Tech | Engenharia de Software | Algoritmos  
+Software Engineer
