@@ -1,0 +1,25 @@
+.container {
+  /* height: 50vh; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: flex; */
+  /* align-items: stretch; */
+  /* align-content: space-evenly; */
+  /* gap: 2rem; */
+  flex-wrap: wrap;
+  /* flex-flow: wrap; */
+}
+/*  */
+.item {
+  /* flex-basis: 120px; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 2; */
+  /* flex-grow: 1; */
+  /* flex: 0 1 100px; */
+}
+
+.item:nth-child(6) {
+  /* flex-grow: 3; */
+  /* flex-grow: 1; */
+  /* order: -1; */
+}
