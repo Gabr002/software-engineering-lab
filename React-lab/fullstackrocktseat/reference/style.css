@@ -1,12 +1,12 @@
 .container {
   /* height: 50vh; */
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: flex; */
   /* align-items: stretch; */
   /* align-content: space-evenly; */
   /* gap: 2rem; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-flow: wrap; */
 }
 /*  */
@@ -22,4 +22,16 @@
   /* flex-grow: 3; */
   /* flex-grow: 1; */
   /* order: -1; */
+}
+
+#app { /* Essa não aceita nada do tipo block, inline-block, etc porque é uma grid */
+  display: inline-grid;
+}
+
+#app > div { /* Essa é do tipo inline-block */
+  border: 1px solid red;
+}
+
+span { /* Essa é do tipo inline */ 
+  border: 1px solid black;
 }
