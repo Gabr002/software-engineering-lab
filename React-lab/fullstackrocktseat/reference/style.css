@@ -24,14 +24,88 @@
   /* order: -1; */
 }
 
-#app { /* Essa não aceita nada do tipo block, inline-block, etc porque é uma grid */
-  display: inline-grid;
+body {
+  /* margin: 0; */
 }
 
-#app > div { /* Essa é do tipo inline-block */
-  border: 1px solid red;
+#app { /* Essa não aceita nada do tipo block, inline-block, etc porque é uma grid */
+  /* display: inline-grid; */
+  /* display: grid; */
+  
+  
+  /* grid-template:  */
+  /* "A B B" 80px */
+  /* "A B B" 40px */
+  /* "A C D" 50px / 80px 1fr 2fr; */
+  
+  /* gap: 30px; */
+  
+  /* height: 100vh; */
+  
+  /* padding: 30px; */
+  /* margin-top: 30px; */
+  /* border: 2px solid green; */
+  /* box-sizing: border-box; */
+}
+
+#app > * { /* Essa é do tipo inline-block */
+  /* border: 1px solid red; */
 }
 
 span { /* Essa é do tipo inline */ 
-  border: 1px solid black;
+  /* border: 1px solid blue; */
+}
+
+#app header {
+  /* grid-area: A;  */
+}
+
+#app main {
+  /* grid-area: B; */
+}
+
+* {
+  /* margin: 0; */
+  /* box-sizing: border-box; */
+}
+
+.grid{
+  /* display: grid; */
+
+  /* grid-template-columns: repeat(3, 1fr); */
+
+  /* justify-content: space-between; */
+  
+  /* gap: 8px; */
+  
+  /* height: 100vh; */
+  /* width: 100vw; */
+  /* background-color: black; */
+}
+
+.grid > div {
+  /* background-color: cornflowerblue;   */
+}
+
+.grid div:nth-child(2) {
+  /* Proprio alinhamento */
+  /* align-self: end;  */
+  /* justify-self: center; */
+}
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+}
+
+ul {
+  /* display: grid; */
+  /* list-style: none; */
+
+  /* grid-auto-flow: row; */
+  /* grid-auto-rows: 50px 1fr; */
+  /* grid-auto-flow: column; */
+  /* grid-auto-columns: max-content; */
+  /* gap: 16px; */
 }
